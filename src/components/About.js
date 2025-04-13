@@ -1,7 +1,6 @@
-import React from "react";
-import image from "../images.js";
 
-const imageUrl = "https://i.imgur.com/mV8PQxj.gif"
+import {image} from "../data/user.js";
+
 
 
 function About() {

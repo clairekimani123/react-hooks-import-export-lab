@@ -1,15 +1,16 @@
+// src/components/App.js
 import React from "react";
 import NavBar from "./NavBar.js"
-import About from "./About.js"
 import Home from "./Home.js"
-import image from "../images.js";
+import About from "./About.js"
+
 function App() {
   return (
     <div>
       <NavBar />
       <Home />
       <About />
-      <images />
+      
     </div>
   );
 }
